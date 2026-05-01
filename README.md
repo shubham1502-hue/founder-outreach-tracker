@@ -79,8 +79,6 @@ The Google Sheet template is available as a CSV download:
 **To import into Google Sheets:**  
 File → Import → Upload → select `sheet-template.csv` → Separator type: Comma → Replace current sheet.
 
-![Sheet preview](docs/sheet-preview.png)
-
 ---
 
 ## Setup
