@@ -117,6 +117,8 @@ Recommended workflow:
 
 This keeps the system useful without scraping LinkedIn, automating DMs, or risking your account reputation.
 
+For recently funded founders, use the `fundraising-prospects` tab first. Keep unverified funding leads there until you manually confirm the founder profile and message angle. Once you send or draft the message, move the contact into `sheet-template` so your follow-up reminder workflow can take over.
+
 ---
 
 ## What I learned building this
