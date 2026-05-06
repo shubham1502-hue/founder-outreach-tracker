@@ -103,6 +103,22 @@ See [docs/make-scenario-setup.md](docs/make-scenario-setup.md) for step-by-step 
 
 ---
 
+## Pair This With AI GTM Command Center
+
+For founder research and manual LinkedIn DM drafting, use [ai-gtm-command-center](https://github.com/shubham1502-hue/ai-gtm-command-center).
+
+Recommended workflow:
+
+1. Add founders and companies to `ai-gtm-command-center/examples/target_accounts.csv`.
+2. Run the command center to generate `linkedin_dm_queue.csv`.
+3. Manually review each founder on LinkedIn and send the edited DM yourself.
+4. Import `founder_outreach_tracker_import.csv` into this tracker.
+5. Change the row stage to `Message Sent` and let the Make follow-up reminders handle the cadence.
+
+This keeps the system useful without scraping LinkedIn, automating DMs, or risking your account reputation.
+
+---
+
 ## What I learned building this
 
 The most useful design decision was keeping the Google Sheet as a simple flat table with no formulas, rather than a relational structure with lookup columns. Make reads faster with simple rows, and you can filter and sort in Google Sheets without breaking the automation.
