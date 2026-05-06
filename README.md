@@ -1,5 +1,21 @@
 # Founder Outreach Tracker
 
+## Problem This Solves
+
+Important founder, investor, candidate, and partner conversations die because follow-ups live in memory, scattered sheets, or browser tabs. The problem is not outreach volume; it is follow-up discipline.
+
+## How It Helps
+
+- Creates a simple Google Sheets CRM with Make automation and Gmail reminders for timely follow-ups.
+- Keeps the system lightweight enough that a founder, operator, or job seeker will actually maintain it.
+- Turns relationship building into a daily queue instead of a manual audit.
+
+## When To Fork This
+
+- Fork this if you manage founder relationships, hiring conversations, investor outreach, partnerships, or a focused job search.
+- Fork it when a full CRM is too heavy but a plain spreadsheet is causing missed follow-ups.
+- Adapt the sheet stages, fit score, reminder window, Gmail copy, and Make scenarios to your own relationship workflow.
+
 A lightweight automation system for managing LinkedIn outreach during a structured job search — built in Make (formerly Integromat) with Google Sheets as the data layer and Gmail as the notification layer.
 
 I built this to manage my own search for Founder's Office and BizOps roles. Instead of losing track of 50+ contacts across spreadsheets and browser tabs, I wanted a system that told me exactly who to follow up with, every morning, without manual checking.
