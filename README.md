@@ -22,6 +22,21 @@ I built this to manage my own search for Founder's Office and BizOps roles. Inst
 
 ---
 
+## Use This In Your Company
+
+- Use it as a lightweight relationship CRM when a full CRM is too heavy.
+- Keep the workflow: row added -> follow-up date -> daily reminder -> manual follow-up.
+- Replace the sample sheet rows, stages, and Gmail reminder copy with your own outreach motion.
+
+## Minimum Edits To Make It Yours
+
+- sheet-template.csv
+- stage names
+- follow-up window
+- Gmail reminder copy in Make
+
+The fastest path is: fork the repo, replace the inputs above, run the demo or open the template, then adjust only the parts that reflect your company's workflow.
+
 ## The problem
 
 Cold outreach to founders and operators only converts if you follow up at the right time — 4 to 6 days after the first message, before you fall out of their inbox context. Most people don't follow up at all. The ones who do follow up manually forget, or follow up too late, or follow up on the wrong people while the high-fit ones go cold.
