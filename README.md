@@ -1,5 +1,152 @@
 # Founder Outreach Tracker
 
+Lightweight founder outreach CRM and follow-up tracker for relationships, message angles, stages, and next actions.
+
+<!-- FOUNDER_OS_STANDARD_README -->
+
+## The founder problem
+
+Founder-led outreach breaks down when contacts, message angles, follow-up dates, and next actions live across LinkedIn, Gmail, notes, and spreadsheets. The failure mode is usually weak follow-up discipline, not lack of outreach ideas.
+
+## What this repo does
+
+- provides a sheet-based outreach tracker
+- documents Make.com and Gmail follow-up automation
+- tracks contacts, stage, angle, status, and follow-up date
+- pairs with GTM research outputs
+
+## What a founder gets in 10 minutes
+
+- copyable outreach CSV template
+- Make scenario setup guide
+- founder follow-up cadence
+- tracker fields for relationship workflow
+
+## Before and after
+
+Before:
+
+- contacts scattered across tabs and notes
+- no follow-up owner
+- unclear status
+- manual reminders
+
+After:
+
+- single relationship tracker
+- clear next action
+- follow-up dates
+- automation-ready reminders
+
+## Who this is for
+
+- early-stage founders
+- Founder's Office candidates
+- GTM operators
+- startup generalists
+- BizOps operators
+
+## Quick start
+
+- Fork the repo.
+- Open `sheet-template.csv` first.
+- Copy the columns into Google Sheets or Airtable.
+- Open `docs/make-scenario-setup.md` if you want reminders.
+
+## How to fork and use this for your company
+
+1. Click Fork.
+2. Rename the repo if needed.
+3. Replace sample rows in `sheet-template.csv` with your own public-safe contacts or private local copy.
+4. Customize stages, message angles, and follow-up intervals.
+5. Connect to Gmail, Make.com, Airtable, HubSpot, Pipedrive, Attio, or your internal tracker only in a private workspace.
+6. Keep private contact details out of public forks.
+
+### Non-technical path
+
+- Replace one file: `sheet-template.csv`.
+- Edit one workflow guide: `docs/make-scenario-setup.md`.
+- Run no code.
+- Read one artifact first: your copied sheet.
+
+## Input format
+
+- contact name or company
+- relationship context
+- message angle
+- status
+- last touch date
+- next follow-up date
+- owner
+
+The default sample data and examples are synthetic, anonymized, or template-only unless the repo explicitly documents a public source. Keep private customer, prospect, employee, investor, borrower, merchant, payment, or company data out of public forks.
+
+## Output files
+
+- `sheet-template.csv`: outreach tracker starter
+- `docs/make-scenario-setup.md`: reminder automation setup
+- `docs/scenario-1.png` and `docs/scenario-2.png`: automation screenshots
+
+## Example founder workflow
+
+- Monday: add new targets.
+- Tuesday: send or draft outreach.
+- Wednesday: update stage and notes.
+- Thursday: review follow-up dates.
+- Friday: move active opportunities into the GTM or sales-call workflow.
+
+## Customization guide
+
+Customize these before using the repo for a real company:
+
+- relationship stages
+- message angle taxonomy
+- follow-up timing
+- CRM columns
+- automation rules
+
+## Where this fits in the Founder OS
+
+Use this after `ai-gtm-command-center` creates target accounts and before `founder-led-sales-call-os` turns conversations into learning. It is the relationship tracking layer.
+
+## Why this matters
+
+This is not a contact spreadsheet. It is a lightweight relationship operating system for founder-led follow-up.
+
+## Roadmap
+
+- Google Sheets template link
+- Airtable base template
+- HubSpot/Pipedrive/Attio import mapping
+- Make.com scenario export
+- weekly follow-up report
+
+## Contributing
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) if present. Practical improvements are welcome when they make the workflow easier to fork, run, or adapt.
+
+## License
+
+MIT License. See [LICENSE](LICENSE).
+
+## Built by
+
+Built by Shubham Singh, a founder-facing operator focused on RevOps, GTM systems, startup metrics, AI workflows, and operating systems for early-stage teams.
+
+## Use this in your company
+
+Fork it, replace the sample inputs with your company context, and run the workflow. Start with the main output listed in the Quick Start section. Keep private data out of public forks.
+
+## If you are a Founder's Office candidate
+
+Use this repo to understand how a founder-facing operator turns messy inputs into decisions, cadence, and execution artifacts. Fork it, adapt it to a real company example, and write a short case note explaining what changed.
+
+---
+
+## Detailed implementation notes
+
+The founder-facing guide above is the fastest path. The original repo-specific notes are preserved below for deeper implementation context.
+
 A lightweight founder outreach CRM and follow-up operating system for tracking founder/operator contacts, repo angles, statuses, and follow-up dates using Google Sheets, Make.com, and Gmail.
 
 ## Problem
@@ -99,9 +246,9 @@ This keeps the system useful without scraping LinkedIn, automating DMs, or riski
 ├── LICENSE
 ├── sheet-template.csv
 └── docs/
-    ├── make-scenario-setup.md
-    ├── scenario-1.png
-    └── scenario-2.png
+  ├── make-scenario-setup.md
+  ├── scenario-1.png
+  └── scenario-2.png
 ```
 
 ## Portfolio Note
