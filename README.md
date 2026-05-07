@@ -32,12 +32,16 @@ This repo is designed to be forked into an internal company workflow. Fork it, r
 
 ## Minimum Edits To Make It Yours
 
-- sheet-template.csv
-- stage names
-- follow-up window
-- Gmail reminder copy in Make
+Change these first:
 
-The fastest path is: fork the repo, replace the inputs above, run the demo or open the template, then adjust only the parts that reflect your company's workflow.
+| Edit | Where | Why |
+|---|---|---|
+| Replace tracker columns only if your workflow needs it. | `sheet-template.csv` | Keeps the tracker aligned with your outreach, fundraising, hiring, or partnership process. |
+| Set your stages and next actions. | `sheet-template.csv` | Makes follow-up status unambiguous. |
+| Update follow-up timing. | `docs/make-scenario-setup.md` | Controls when reminders become useful instead of noisy. |
+| Rewrite reminder copy. | Make/Gmail scenario described in `docs/make-scenario-setup.md` | Keeps the reminder actionable when it lands in your inbox. |
+
+You can leave the screenshot docs, base sheet structure, and reminder architecture alone on the first fork. Start by using the existing columns for one outreach batch before changing the schema.
 
 ## The problem
 
