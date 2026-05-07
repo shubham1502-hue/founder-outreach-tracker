@@ -87,6 +87,14 @@ The default sample data and examples are synthetic, anonymized, or template-only
 - `docs/make-scenario-setup.md`: reminder automation setup
 - `docs/scenario-1.png` and `docs/scenario-2.png`: automation screenshots
 
+## Sample artifacts to inspect
+
+Open these before connecting any automation:
+
+- `sheet-template.csv`: the tracker structure to copy into Google Sheets or Airtable.
+- `docs/make-scenario-setup.md`: the follow-up automation guide.
+- `docs/scenario-1.png` and `docs/scenario-2.png`: screenshots of the reminder scenario.
+
 ## Example founder workflow
 
 - Monday: add new targets.
