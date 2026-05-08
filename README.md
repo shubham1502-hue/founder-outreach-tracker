@@ -113,6 +113,38 @@ Customize these before using the repo for a real company:
 - CRM columns
 - automation rules
 
+## Standalone or integrated
+
+Standalone:
+Use this repo by itself if you only need a lightweight founder, operator, investor, partner, or prospect follow-up tracker. Fork it, replace the sample input, run the workflow or copy the templates, and use the main output in your next founder review.
+
+Integrated:
+Use this repo with the Founder OS ecosystem if you want to connect it to adjacent operating workflows.
+
+- Use after [ai-gtm-command-center](https://github.com/shubham1502-hue/ai-gtm-command-center) creates target accounts.
+- Use before [founder-led-sales-call-os](https://github.com/shubham1502-hue/founder-led-sales-call-os) when outreach turns into sales calls.
+- Feed slipping follow-ups into [founder-weekly-operating-review-agent](https://github.com/shubham1502-hue/founder-weekly-operating-review-agent).
+- Use with investor, partner, or advisor relationship workflows when founder follow-up discipline matters.
+
+## Lifecycle handoff
+
+Before:
+
+- [ai-gtm-command-center](https://github.com/shubham1502-hue/ai-gtm-command-center) for target account lists.
+- Founder networking, investor, partner, or operator outreach.
+
+This repo produces:
+
+- Follow-up cadence
+- Reminder system
+- Relationship pipeline
+- Outreach tracker
+
+After:
+
+- [founder-led-sales-call-os](https://github.com/shubham1502-hue/founder-led-sales-call-os) when conversations become sales calls.
+- [founder-weekly-operating-review-agent](https://github.com/shubham1502-hue/founder-weekly-operating-review-agent) when follow-up risk needs weekly review.
+
 ## Where this fits in the Founder OS
 
 Use this after `ai-gtm-command-center` creates target accounts and before `founder-led-sales-call-os` turns conversations into learning. It is the relationship tracking layer.
