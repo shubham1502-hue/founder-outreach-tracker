@@ -125,6 +125,7 @@ Use this repo with the Founder OS ecosystem if you want to connect it to adjacen
 - Use before [founder-led-sales-call-os](https://github.com/shubham1502-hue/founder-led-sales-call-os) when outreach turns into sales calls.
 - Feed slipping follow-ups into [founder-weekly-operating-review-agent](https://github.com/shubham1502-hue/founder-weekly-operating-review-agent).
 - Use with investor, partner, or advisor relationship workflows when founder follow-up discipline matters.
+- Use before [founder-hiring-talent-pipeline-os](https://github.com/shubham1502-hue/founder-hiring-talent-pipeline-os) when a candidate or referral relationship becomes an active hiring process.
 
 ## Lifecycle handoff
 
@@ -143,11 +144,16 @@ This repo produces:
 After:
 
 - [founder-led-sales-call-os](https://github.com/shubham1502-hue/founder-led-sales-call-os) when conversations become sales calls.
+- [founder-hiring-talent-pipeline-os](https://github.com/shubham1502-hue/founder-hiring-talent-pipeline-os) when candidate or referral relationships become active role evaluation.
 - [founder-weekly-operating-review-agent](https://github.com/shubham1502-hue/founder-weekly-operating-review-agent) when follow-up risk needs weekly review.
+
+## Candidate and relationship handoff
+
+Founder Outreach Tracker can support early relationship tracking for founders, operators, advisors, candidates, and referral sources. When a relationship becomes an active hiring process, use [Founder Hiring Talent Pipeline OS](https://github.com/shubham1502-hue/founder-hiring-talent-pipeline-os) to evaluate role fit, interview signals, trial projects, reference checks, and hiring decisions.
 
 ## Where this fits in the Founder OS
 
-Use this after `ai-gtm-command-center` creates target accounts and before `founder-led-sales-call-os` turns conversations into learning. It is the relationship tracking layer.
+Use this after `ai-gtm-command-center` creates target accounts and before `founder-led-sales-call-os` turns conversations into learning. It can also support candidate and referral relationships before they move into `founder-hiring-talent-pipeline-os`. It is the relationship tracking layer.
 
 ## Why this matters
 
