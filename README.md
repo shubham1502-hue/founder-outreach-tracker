@@ -127,6 +127,12 @@ Use this repo with the Founder OS ecosystem if you want to connect it to adjacen
 - Use with investor, partner, or advisor relationship workflows when founder follow-up discipline matters.
 - Use before [founder-hiring-talent-pipeline-os](https://github.com/shubham1502-hue/founder-hiring-talent-pipeline-os) when a candidate or referral relationship becomes an active hiring process.
 
+## Visibility to relationship handoff
+
+[Founder Visibility OS](https://github.com/shubham1502-hue/founder-visibility-os) helps turn founder POVs and proof-of-work into visibility and business signal. Founder Outreach Tracker helps follow up when that visibility creates DMs, comments, calls, leads, investor interest, hiring signal, or partnership signal.
+
+Use Founder Visibility OS to decide what created business signal. Use Founder Outreach Tracker to make sure the relationship does not go cold.
+
 ## Lifecycle handoff
 
 Before:
