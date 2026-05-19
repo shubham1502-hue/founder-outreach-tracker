@@ -4,6 +4,23 @@ Lightweight founder outreach CRM and follow-up tracker for relationships, messag
 
 <!-- FOUNDER_OS_STANDARD_README -->
 
+## Start here
+
+| Reader | Open first | Why | CTA |
+| --- | --- | --- | --- |
+| Founder | `sheet-template.csv` | Copy the tracker structure before adding private contacts. | Track the next follow-up date for every active relationship. |
+| Non-technical operator | `docs/make-scenario-setup.md` | See the reminder workflow before connecting automation. | Set up reminders only after the sheet works manually. |
+| GTM operator | `docs/founder-use-case.md` | Understand how relationship status, message angle, and next action fit together. | Use the tracker after target accounts become conversations. |
+| Hiring manager | `sheet-template.csv` | See simple follow-up discipline and relationship pipeline thinking. | Review the fields for owner, status, angle, and next action. |
+
+## Use this instead of adjacent repos when
+
+| If the operating problem is... | Use this repo | Use the adjacent repo instead when... |
+| --- | --- | --- |
+| Relationships, follow-up dates, message angles, and next actions are getting lost | Yes | Use `ai-gtm-command-center` before outreach when account research and call prep are the problem. |
+| Conversations become sales calls | Not alone | Use `founder-led-sales-call-os` after calls to extract objections, deal risk, and sales learning. |
+| Visibility creates DMs, comments, leads, hiring signal, or investor signal | Yes | Use `founder-visibility-os` to decide what created the signal. |
+
 ## The founder problem
 
 Founder-led outreach breaks down when contacts, message angles, follow-up dates, and next actions live across LinkedIn, Gmail, notes, and spreadsheets. The failure mode is usually weak follow-up discipline, not lack of outreach ideas.
